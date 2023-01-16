@@ -190,10 +190,15 @@ aside {
   font-size: 16px;
 }
 
-/* .arrow-header > span:hover {
+#back-arrow:hover {
   cursor: pointer;
   color: white;
-} */
+}
+
+#forward-arrow:hover {
+  cursor: pointer;
+  color: white;
+}
 
 .profile-header:hover {
   cursor: pointer;
@@ -345,6 +350,7 @@ aside {
     z-index: 10;
     top: auto;
     bottom: 0;
+    opacity: 0.9;
   }
 
   .aside-menu {
@@ -355,6 +361,7 @@ aside {
     border: none;
     gap: 5vw;
     font-size: 4vw;
+    padding-right: 24px;
   }
 
   .aside-playlist {
