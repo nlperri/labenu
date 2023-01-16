@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.screen-box {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+}
+
+header {
+  background-color: mediumvioletred;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 30px 1fr 40px;
+  width: 100vw;
+  align-items: center;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.header-pic {
+  width: 18px;
+  align-items: baseline;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+}
+
+aside {
+  background-color: #f2d0e0;
+  display: grid;
+  grid-template-columns: 30px 180px 30px;
+  grid-template-rows: repeat(20, 1fr);
+  align-items: center;
+}
+
+.div-section {
+  /* display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: flex-start; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 10px;
+}
+
+.img-aside {
+  width: 20px;
+}
+
+.menu-aside {
+  display: flex;
+  align-items: flex-start;
+  width: 250px;
+  padding: 5px;
+}
+
+.cake-card {
+  width: 200px;
+}
+
+section {
+  width: 200px;
+  box-shadow: 3px 3px grey;
+  height: 300px;
+  text-align: center;
+}
+
+footer {
+  background-color: mediumvioletred;
+  padding: 10px;
+  text-align: center;
+}

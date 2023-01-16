@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  color: white;
+  box-sizing: border-box;
+}
+
+#main-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 4fr 2fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "top-container"
+    "pink-block"
+    "middle-container"
+    "purple-block";
+}
+
+#top-container {
+  grid-area: top-container;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas: "green-block yellow-block";
+}
+
+.green-background {
+  background-color: green;
+  grid-area: green-block;
+}
+
+.yellow-background {
+  background-color: yellow;
+  grid-area: yellow-block;
+}
+
+.pink-background {
+  background-color: fuchsia;
+  grid-area: pink-block;
+}
+
+#middle-container {
+  grid-area: middle-container;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "blue-block white-block red-block"
+    "blue-block white-block lightgreen-block";
+}
+
+.blue-background {
+  background-color: blue;
+  grid-area: blue-block;
+}
+
+#blanck {
+  grid-area: white-block;
+}
+
+.red-background {
+  background-color: red;
+  grid-area: red-block;
+}
+
+.lightgreen-background {
+  background-color: lightgreen;
+  grid-area: lightgreen-block;
+}
+
+.purple-background {
+  background-color: purple;
+  grid-area: purple-block;
+}
