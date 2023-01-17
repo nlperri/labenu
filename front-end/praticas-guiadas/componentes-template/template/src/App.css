@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 10vh;
+  background-color: orange;
+  text-align: center;
+  padding: 10px;
+}
+
+.garagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+img {
+  width: 100px;
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.copywrite {
+  display: flex;
+  align-items: center;
+}
